@@ -157,12 +157,22 @@ function Umkm() {
               <p className="text-sm text-gray-700 mb-3">
                 <strong>Gmail:</strong> {selectedUMKM.sosmed.email}
               </p>
-              <button
-                onClick={handleCloseModal}
-                className="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
-              >
-                Tutup
-              </button>
+              <div className='flex justify-between'>
+                <button
+                  onClick={handleCloseModal}
+                  className="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
+                >
+                  Tutup
+                </button>
+                <a
+                  href={`https://wa.me/${selectedUMKM.noTelp}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
+                >
+                  Hubungi
+                </a>
+              </div>
             </div>
           </div>
         </div>
