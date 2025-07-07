@@ -328,7 +328,7 @@ function Home() {
         <div className="max-w-5xl mx-auto px-4">
           <h3 className="text-2xl font-bold mb-4">Kontak Desa</h3>
           <p>Email: desategalurung@gmail.com</p>
-          <p>Telp: 0812-xxxx-xxxx</p>
+          <p>Telp: 0857-0205-5011</p>
         </div>
       </section>
 
