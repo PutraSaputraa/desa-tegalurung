@@ -10,7 +10,7 @@ function Home() {
     {
       nama: 'Laundry Nyonya',
       alamat: 'Tegalurung Tengah, Bawukan, Kemalang, Klaten',
-      noTelp: '085702055011',
+      noTelp: '85702055011',
       gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
       sosmed: {
         instagram: '@anugraha_gs',
@@ -20,7 +20,7 @@ function Home() {
     {
       nama: 'Warung Mbok Tun',
       alamat: 'Tegalurung Selatan',
-      noTelp: '08578398625',
+      noTelp: '8578398625',
       gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
       sosmed: {
         instagram: '@mboktun',
@@ -30,7 +30,7 @@ function Home() {
     {
       nama: 'Kelontong Pak Samud',
       alamat: 'Tegalurung Selatan',
-      noTelp: '08578398625',
+      noTelp: '8578398625',
       gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
       sosmed: {
         instagram: '@paksamud',
@@ -358,7 +358,7 @@ function Home() {
               </div>
 
             <p className="text-sm text-gray-700 mb-1">
-              <strong>No Telp:</strong> {selectedUMKM.noTelp}
+              <strong>No Telp:</strong> 0{selectedUMKM.noTelp}
             </p>
             <p className="text-sm text-gray-700 mb-1">
               <strong>Alamat:</strong> {selectedUMKM.alamat}
