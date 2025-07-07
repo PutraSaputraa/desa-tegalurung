@@ -377,7 +377,7 @@ function Home() {
                 Tutup
               </button>
               <a
-                href={`https://wa.me/${selectedUMKM.noTelp}`}
+                href={`https://wa.me/62${selectedUMKM.noTelp}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
