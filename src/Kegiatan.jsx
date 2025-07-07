@@ -17,9 +17,14 @@ function KegiatanCard({ kegiatan, index, onClick }) {
       transition={{ duration: 0.6, delay: index * 0.2 }}
       className="bg-white p-6 shadow rounded-md"
     >
-      <div className="bg-gray-200 h-[200px] flex items-center justify-center rounded mb-3">
-        <span className="text-gray-500">{kegiatan.gambar}</span>
+      <div className="h-[200px] overflow-hidden rounded mb-3">
+        <img
+          src={kegiatan.gambar}
+          alt={kegiatan.nama}
+          className="w-full h-full object-cover"
+        />
       </div>
+
       <div className="font-semibold text-xl mb-2 text-green-600">{kegiatan.nama}</div>
       <p className="text-sm text-justify text-gray-700 mb-3">{kegiatan.deskripsi}</p>
       <button
@@ -37,19 +42,20 @@ function Kegiatan() {
     {
       nama: 'Posyandu Puskesmas',
       deskripsi: 'Ya posyandu ajah mau gimana lagi lek, yakan yak.',
-      gambar: '[Foto Kegiatan]',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
     },
     {
       nama: 'Kerja Bakti Bersih Desa',
       deskripsi: 'Minggu pagi warga membersihkan jalan dan saluran air.',
-      gambar: '[Foto Kegiatan]',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
     },
     {
       nama: 'Pelatihan Kegiatan',
       deskripsi: 'Warga dilatih untuk membuat produk makanan ringan kemasan.',
-      gambar: '[Foto Kegiatan]',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
     },
   ];
+
 
   const [showModal, setShowModal] = useState(false);
   const [selectedKegiatan, setSelectedKegiatan] = useState(null);
@@ -140,9 +146,14 @@ function Kegiatan() {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white rounded-lg p-6 max-w-md w-full shadow-lg">
             <h2 className="text-xl font-bold mb-5">{selectedKegiatan.nama}</h2>
-            <div className="bg-gray-200 h-40 flex items-center justify-center rounded mb-5">
-              <span className="text-gray-500">{selectedKegiatan.gambar}</span>
+            <div className="h-[200px] overflow-hidden rounded mb-3">
+              <img
+                src={selectedKegiatan.gambar}
+                alt={selectedKegiatan.nama}
+                className="w-full h-full object-cover"
+              />
             </div>
+
             <p className="text-sm text-gray-700 mb-3">{selectedKegiatan.deskripsi}</p>
             <button
               onClick={handleCloseModal}

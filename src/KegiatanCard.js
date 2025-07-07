@@ -15,9 +15,13 @@ function KegiatanCard({ kegiatan, index, onClick }) {
       transition={{ duration: 0.6, delay: index * 0.2 }}
       className="bg-white p-6 shadow rounded-md"
     >
-      <div className="bg-gray-200 h-[200px] flex items-center justify-center rounded mb-3">
-        <span className="text-gray-500">{kegiatan.gambar}</span>
-      </div>
+      <div className="h-[200px] overflow-hidden rounded mb-3">
+        <img
+            src={kegiatan.gambar}
+            alt={kegiatan.nama}
+            className="w-full h-full object-cover"
+        />
+        </div>
       <div className="font-semibold text-xl mb-2 text-green-600">{kegiatan.nama}</div>
       <p className="text-sm text-justify text-gray-700 mb-3">{kegiatan.deskripsi}</p>
       <button

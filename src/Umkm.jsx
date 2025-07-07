@@ -7,6 +7,7 @@ function Umkm() {
       nama: 'Laundry Nyonya',
       alamat: 'Tegalurung Tengah, Bawukan, Kemalang, Klaten',
       noTelp: '085702055011',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
       sosmed: {
         instagram: '@anugraha_gs',
         email: 'anugrahags04@gmail.com'
@@ -16,6 +17,7 @@ function Umkm() {
       nama: 'Warung Mbok Tun',
       alamat: 'Tegalurung Selatan',
       noTelp: '08578398625',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
       sosmed: {
         instagram: '@mboktun',
         email: 'mboktun@gmail.com'
@@ -25,17 +27,9 @@ function Umkm() {
       nama: 'Kelontong Pak Samud',
       alamat: 'Tegalurung Selatan',
       noTelp: '08578398625',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
       sosmed: {
         instagram: '@paksamud',
-        email: '-'
-      }
-    },
-    {
-      nama: 'Warung Soto Pak Asep',
-      alamat: 'Tegalurung Selatan',
-      noTelp: '08578398625',
-      sosmed: {
-        instagram: '@pakasep',
         email: '-'
       }
     },
@@ -138,8 +132,18 @@ function Umkm() {
           <div className="p-6 max-w-md w-full">
             <div className="bg-white rounded-lg p-6 max-w-md w-full shadow-lg">
               <h2 className="text-xl font-bold mb-5">{selectedUMKM.nama}</h2>
-              <div className="bg-gray-200 h-40 px-4 flex items-center justify-center rounded mb-5">
-                <span className="text-gray-500">[Foto UMKM]</span>
+              <div className="w-full h-40 rounded overflow-hidden mb-3">
+                {selectedUMKM.gambar ? (
+                    <img
+                    src={selectedUMKM.gambar}
+                    alt={selectedUMKM.nama}
+                    className="w-full h-full object-cover"
+                    />
+                ) : (
+                    <div className="bg-gray-200 w-full h-full flex items-center justify-center text-gray-500">
+                    [Foto UMKM]
+                    </div>
+                )}
               </div>
               <p className="text-sm text-gray-700 mb-1">
                 <strong>No Telp:</strong> {selectedUMKM.noTelp}

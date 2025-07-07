@@ -17,9 +17,20 @@ function UMKMCard({ umkm, index, onOpenModal }) {
       className="bg-white p-4 shadow rounded"
     >
       <div className="font-semibold text-lg mb-2">{umkm.nama}</div>
-      <div className="bg-gray-200 h-40 px-4 flex items-center justify-center rounded">
-        <span className="text-gray-500">[Foto UMKM]</span>
-      </div>
+      <div className="w-full h-40 rounded overflow-hidden mb-3">
+        {umkm.gambar ? (
+            <img
+            src={umkm.gambar}
+            alt={umkm.nama}
+            className="w-full h-full object-cover"
+            />
+        ) : (
+            <div className="bg-gray-200 w-full h-full flex items-center justify-center text-gray-500">
+            [Foto UMKM]
+            </div>
+        )}
+        </div>
+
       <div className="bg-white-200 px-1 py-2 rounded mt-3 text-black text-sm space-y-3">
         <div>
           <p>Alamat :</p>

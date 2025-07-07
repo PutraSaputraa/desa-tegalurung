@@ -11,6 +11,7 @@ function Home() {
       nama: 'Laundry Nyonya',
       alamat: 'Tegalurung Tengah, Bawukan, Kemalang, Klaten',
       noTelp: '085702055011',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
       sosmed: {
         instagram: '@anugraha_gs',
         email: 'anugrahags04@gmail.com'
@@ -20,6 +21,7 @@ function Home() {
       nama: 'Warung Mbok Tun',
       alamat: 'Tegalurung Selatan',
       noTelp: '08578398625',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
       sosmed: {
         instagram: '@mboktun',
         email: 'mboktun@gmail.com'
@@ -29,6 +31,7 @@ function Home() {
       nama: 'Kelontong Pak Samud',
       alamat: 'Tegalurung Selatan',
       noTelp: '08578398625',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
       sosmed: {
         instagram: '@paksamud',
         email: '-'
@@ -40,17 +43,17 @@ function Home() {
     {
       nama: 'Posyandu Puskesmas',
       deskripsi: 'Ya posyandu ajah mau gimana lagi lek, yakan yak.',
-      gambar: '[Foto Kegiatan]',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
     },
     {
       nama: 'Kerja Bakti Bersih Desa',
       deskripsi: 'Minggu pagi warga membersihkan jalan dan saluran air.',
-      gambar: '[Foto Kegiatan]',
+      gambar: '',
     },
     {
       nama: 'Pelatihan UMKM',
       deskripsi: 'Warga dilatih untuk membuat produk makanan ringan kemasan.',
-      gambar: '[Foto Kegiatan]',
+      gambar: '',
     },
   ];
 
@@ -76,6 +79,18 @@ function Home() {
     },
   });
 
+  const [selectedKegiatan, setSelectedKegiatan] = useState(null);
+  const [showKegiatanModal, setShowKegiatanModal] = useState(false);
+
+  const handleOpenKegiatanModal = (kegiatan) => {
+    setSelectedKegiatan(kegiatan);
+    setShowKegiatanModal(true);
+  };
+
+  const handleCloseKegiatanModal = () => {
+    setShowKegiatanModal(false);
+    setSelectedKegiatan(null);
+  };
 
 
   return (
@@ -195,8 +210,18 @@ function Home() {
                 >
                   <div className="font-semibold text-lg mb-2">{umkm.nama}</div>
 
-                  <div className="bg-gray-200 h-40 px-4 flex items-center justify-center rounded">
-                    <span className="text-gray-500">[Foto UMKM]</span>
+                  <div className="w-full h-[200px] overflow-hidden rounded mb-3">
+                    {umkm.gambar ? (
+                      <img
+                        src={umkm.gambar}
+                        alt={umkm.nama}
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <div className="bg-gray-200 w-full h-full flex items-center justify-center text-gray-500">
+                        [Foto UMKM]
+                      </div>
+                    )}
                   </div>
 
                   <div className="bg-white-200 px-1 py-2 rounded mt-3 text-black text-sm space-y-3">
@@ -240,9 +265,21 @@ function Home() {
           <div ref={sliderRef} className="keen-slider">
             {kegiatanList.map((kegiatan, index) => (
               <div className="keen-slider__slide bg-white p-6 shadow rounded-md" key={index}>
-                <div className="bg-gray-200 h-[300px] px-4 flex items-center justify-center rounded mb-3">
-                  <span className="text-gray-500">{kegiatan.gambar}</span>
+                <div className="w-full h-[300px] overflow-hidden rounded mb-3">
+                  {kegiatan.gambar ? (
+                    <img
+                      src={kegiatan.gambar}
+                      alt={kegiatan.nama}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <div className="bg-gray-200 w-full h-full flex items-center justify-center text-gray-500">
+                      [Foto Kegiatan]
+                    </div>
+                  )}
                 </div>
+
+
 
                 <div className="font-semibold text-xl mb-2 text-green-600">{kegiatan.nama}</div>
 
@@ -250,9 +287,13 @@ function Home() {
                   {kegiatan.deskripsi}
                 </p>
 
-                <button className="bg-green-600 text-white px-3 py-1 rounded hover:bg-green-700">
+                <button
+                  onClick={() => handleOpenKegiatanModal(kegiatan)}
+                  className="bg-green-600 text-white px-3 py-1 rounded hover:bg-green-700"
+                >
                   Lihat Detail
                 </button>
+
               </div>
             ))}
           </div>
@@ -302,10 +343,19 @@ function Home() {
           <div className="bg-white rounded-lg p-6 max-w-md w-full shadow-lg">
             <h2 className="text-xl font-bold mb-5">{selectedUMKM.nama}</h2>
             
-            <div className="bg-gray-200 h-40 px-4 flex items-center justify-center rounded mb-5">
-              {/* Bisa isi gambar di sini */}
-              <span className="text-gray-500">[Foto UMKM]</span>
-            </div>
+            <div className="w-full h-40 rounded overflow-hidden mb-3">
+                {selectedUMKM.gambar ? (
+                    <img
+                    src={selectedUMKM.gambar}
+                    alt={selectedUMKM.nama}
+                    className="w-full h-full object-cover"
+                    />
+                ) : (
+                    <div className="bg-gray-200 w-full h-full flex items-center justify-center text-gray-500">
+                    [Foto UMKM]
+                    </div>
+                )}
+              </div>
 
             <p className="text-sm text-gray-700 mb-1">
               <strong>No Telp:</strong> {selectedUMKM.noTelp}
@@ -321,6 +371,41 @@ function Home() {
             </p>
             <button
               onClick={handleCloseModal}
+              className="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
+            >
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    )}
+    
+    {showKegiatanModal && selectedKegiatan && (
+      <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div className="p-6 max-w-md w-full">
+          <div className="bg-white rounded-lg p-6 shadow-lg">
+            <h2 className="text-xl font-bold mb-5">{selectedKegiatan.nama}</h2>
+
+            <div className="w-full h-40 rounded overflow-hidden mb-3">
+              {selectedKegiatan.gambar ? (
+                <img
+                  src={selectedKegiatan.gambar}
+                  alt={selectedKegiatan.nama}
+                  className="w-full h-full object-cover"
+                />
+              ) : (
+                <div className="bg-gray-200 w-full h-full flex items-center justify-center text-gray-500">
+                  [Foto Kegiatan]
+                </div>
+              )}
+            </div>
+
+            <p className="text-sm text-gray-700 mb-3 text-justify">
+              {selectedKegiatan.deskripsi}
+            </p>
+
+            <button
+              onClick={handleCloseKegiatanModal}
               className="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
             >
               Tutup
