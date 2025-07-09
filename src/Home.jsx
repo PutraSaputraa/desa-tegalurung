@@ -187,6 +187,16 @@ function Home() {
 
       </section>
 
+      {/* Markatilaras */}
+      <section id="profil" className="max-w-5xl mx-auto px-4 py-16">
+        <h3 className="text-2xl font-bold mb-4">Karawitan Markatilaras</h3>
+        <img src="https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg" alt="" />
+        <p className="text-gray-700 leading-relaxed text-justify mt-6">
+          Markatilaras adalah kelompok seni karawitan dari Desa Tegalurung yang melestarikan musik tradisional Jawa melalui gamelan dan tembang. Aktif dalam berbagai acara adat dan budaya, Markatilaras menjadi simbol kebanggaan desa dan sarana belajar bagi generasi muda.
+        </p>
+
+      </section>
+
       {/* UMKM */}
       <section id="umkm" className="bg-gray-100 py-16">
         <div className="max-w-5xl mx-auto px-4">
