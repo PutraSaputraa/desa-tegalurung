@@ -28,12 +28,12 @@ function Home() {
       }
     },
     {
-      nama: 'Kelontong Pak Samud',
-      alamat: 'Tegalurung Selatan',
+      nama: 'Cap jae bu wariah',
+      alamat: 'Tegalurung Tengah, Bawukan, Kemalang, Klaten',
       noTelp: '8578398625',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      gambar: '/image/nadiracell.jpg',
       sosmed: {
-        instagram: '@paksamud',
+        instagram: '',
         email: '-'
       }
     },
