@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import UMKMCard from './UMKMCard';
-import image from './image';
 
 function Umkm() {
   const umkmList = [
