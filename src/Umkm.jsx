@@ -14,7 +14,7 @@ function Umkm() {
       }
     },
     {
-      nama: 'Warung Mbok Tun',
+      nama: 'Warung Soto Mbok Atun',
       alamat: 'Tegalurung Tengah, Bawukan, Kemalang, Klaten',
       noTelp: '85848111426',
       gambar: '/image/warungsotombakatun.jpg',

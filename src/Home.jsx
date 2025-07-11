@@ -8,23 +8,23 @@ function Home() {
 
   const umkmList = [
     {
-      nama: 'Laundry Nyonya',
-      alamat: 'Tegalurung Tengah, Bawukan, Kemalang, Klaten',
-      noTelp: '85702055011',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      nama: 'Nadira Cell',
+      alamat: 'Jl. Pasar Butuh Km 01 Tegalurung Rt 11A/06 Bawukan Kemalang Klaten',
+      noTelp: '-',
+      gambar: '/image/nadiracell.jpg',
       sosmed: {
-        instagram: '@anugraha_gs',
-        email: 'anugrahags04@gmail.com'
+        instagram: '-',
+        email: '-'
       }
     },
     {
-      nama: 'Warung Mbok Tun',
-      alamat: 'Tegalurung Selatan',
-      noTelp: '8578398625',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      nama: 'Warung Soto Mbok Atun',
+      alamat: 'Tegalurung Tengah, Bawukan, Kemalang, Klaten',
+      noTelp: '85848111426',
+      gambar: '/image/warungsotombakatun.jpg',
       sosmed: {
-        instagram: '@mboktun',
-        email: 'mboktun@gmail.com'
+        instagram: '-',
+        email: '-'
       }
     },
     {
