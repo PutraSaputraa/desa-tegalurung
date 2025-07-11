@@ -4,10 +4,10 @@ import UMKMCard from './UMKMCard';
 function Umkm() {
   const umkmList = [
     {
-      nama: 'Laundry Nyonya',
-      alamat: 'Tegalurung Tengah, Bawukan, Kemalang, Klaten',
+      nama: 'Nadira Cell',
+      alamat: 'Alamat Jl. Pasar Butuh Km 01 Tegalurung Rt 11A/06 Bawukan Kemalang Klaten',
       noTelp: '85702055011',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      gambar: '../image/nadiracell.jpg',
       sosmed: {
         instagram: '@anugraha_gs',
         email: 'anugrahags04@gmail.com'
