@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import UMKMCard from './UMKMCard';
+import image from './image';
 
 function Umkm() {
   const umkmList = [
@@ -7,7 +8,7 @@ function Umkm() {
       nama: 'Nadira Cell',
       alamat: 'Alamat Jl. Pasar Butuh Km 01 Tegalurung Rt 11A/06 Bawukan Kemalang Klaten',
       noTelp: '85702055011',
-      gambar: '../image/nadiracell.jpg',
+      gambar: '/image/nadiracell.jpg',
       sosmed: {
         instagram: '@anugraha_gs',
         email: 'anugrahags04@gmail.com'
