@@ -9,7 +9,7 @@ function Home() {
   const umkmList = [
     {
       nama: 'Nadira Cell',
-      alamat: 'Jl. Pasar Butuh Km 01 Tegalurung Rt 11A/06 Bawukan Kemalang Klaten',
+      alamat: 'JL. Pasar Butuh KM 01 Tegalurung RT 11A/06 Bawukan Kemalang Klaten',
       noTelp: '-',
       gambar: '/image/nadiracell.jpg',
       sosmed: {

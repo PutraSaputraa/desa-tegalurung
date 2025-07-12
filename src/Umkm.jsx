@@ -5,7 +5,7 @@ function Umkm() {
   const umkmList = [
     {
       nama: 'Nadira Cell',
-      alamat: 'Jl. Pasar Butuh Km 01 Tegalurung Rt 11A/06 Bawukan Kemalang Klaten',
+      alamat: 'JL. Pasar Butuh KM 01 Tegalurung RT 11A/06 Bawukan Kemalang Klaten',
       noTelp: '-',
       gambar: '/image/nadiracell.jpg',
       sosmed: {
@@ -35,7 +35,7 @@ function Umkm() {
     },
     {
       nama: 'Dirin Motor',
-      alamat: 'Tegalurung bawukan, kemalang, klaten, RR 11a, RW 06',
+      alamat: 'Tegalurung bawukan, kemalang, klaten, RT 11a, RW 06',
       noTelp: '85878226177',
       gambar: '/image/dirinmotor.jpg',
       sosmed: {
