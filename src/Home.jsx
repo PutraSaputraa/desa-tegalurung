@@ -37,26 +37,6 @@ function Home() {
         email: '-'
       }
     },
-    {
-      nama: 'Dirin Motor',
-      alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11a, rw06',
-      noTelp: '85878226177',
-      gambar: '/image/dirinmotor.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
-    },
-    {
-      nama: 'Sembako Bu Suprih',
-      alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11a, rw06',
-      noTelp: '85878226177',
-      gambar: '/image/dirinmotor.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
-    },
   ];
 
   const kegiatanList = [
