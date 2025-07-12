@@ -31,7 +31,27 @@ function Home() {
       nama: 'Cap jae bu wariah',
       alamat: 'Tegalurung Tengah, Bawukan, Kemalang, Klaten',
       noTelp: '8578398625',
-      gambar: '/image/nadiracell.jpg',
+      gambar: '/image/capjaebuwariah.jpg',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
+    {
+      nama: 'Dirin Motor',
+      alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11a, rw06',
+      noTelp: '85878226177',
+      gambar: '/image/dirinmotor.jpg',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
+    {
+      nama: 'Sembako Bu Suprih',
+      alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11a, rw06',
+      noTelp: '85878226177',
+      gambar: '/image/dirinmotor.jpg',
       sosmed: {
         instagram: '',
         email: '-'
