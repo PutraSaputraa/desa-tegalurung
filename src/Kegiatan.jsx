@@ -109,6 +109,11 @@ function Kegiatan() {
       deskripsi: 'Arisan bapak bapak yang dilaksanakan setiap malam jumat pahing.',
       gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
     },
+    {
+      nama: 'TPA Tegalurung',
+      deskripsi: 'Kegiatan TPA untuk anak anak warga tegalurung yang dilaksanakan di masjid darusalam setiap hari senin, jumat, dan sabtu.',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+    },
   ];
 
 
