@@ -47,7 +47,7 @@ function Umkm() {
       nama: 'Sembako Bu Suprih',
       alamat: 'Tegalurung bawukan, kemalang, klaten, RT 11a, RW 06',
       noTelp: '85878226177',
-      gambar: '/image/dirinmotor.jpg',
+      gambar: '/image/sembakobusuprih.jpg',
       sosmed: {
         instagram: '',
         email: '-'
