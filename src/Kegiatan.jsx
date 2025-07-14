@@ -40,18 +40,73 @@ function KegiatanCard({ kegiatan, index, onClick }) {
 function Kegiatan() {
   const kegiatanList = [
     {
-      nama: 'Posyandu Puskesmas',
-      deskripsi: 'Ya posyandu ajah mau gimana lagi lek, yakan yak.',
+      nama: 'Gotong Royong RT 11a',
+      deskripsi: 'Gotong Royong Minggu Pagi Jam 05.00',
       gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
     },
     {
-      nama: 'Kerja Bakti Bersih Desa',
-      deskripsi: 'Minggu pagi warga membersihkan jalan dan saluran air.',
+      nama: 'Arisan ibu ibu RT 11a',
+      deskripsi: 'Arisan ibu ibu warga RT 11a yang dilaksanakan setiap hari minggu',
       gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
     },
     {
-      nama: 'Pelatihan Kegiatan',
-      deskripsi: 'Warga dilatih untuk membuat produk makanan ringan kemasan.',
+      nama: 'Pertemuan Pemuda RT 11a',
+      deskripsi: 'Pertemuan pemuda warga RT 11a yang dilaksanakan setiap malam minggu 2 kali seminggu',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+    },
+    {
+      nama: 'Pertemuan bapak bapak RT 11a',
+      deskripsi: 'Pertemuan bapak bapak warga RT 11a yang dilaksanakan setiap malam senin kliwon',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+    },
+    {
+      nama: 'Bersih Bersih Makam',
+      deskripsi: 'Bersih Bersih Makam setiap hari minggu legi seluruh warga tegalurung',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+    },
+    {
+      nama: 'Yasinan RT 11a',
+      deskripsi: 'Acara yasinan setiap selapanan / 35 hari sekali.',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+    },
+    {
+      nama: 'Pertemuan RT 11B + Nyapu Jalan',
+      deskripsi: 'Bersih bersih jalan disusul dengan pertemuan jam 15.00.',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+    },
+    {
+      nama: 'Pertemuan bapak bapak RT 11B',
+      deskripsi: 'Pertemuan bapak bapak yang dilaksanakan setiap hari minggu wage.',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+    },
+    {
+      nama: 'Pertemuan + nyapu jalan RT 12',
+      deskripsi: 'Bersih bersih jalan disusul dengan pertemuan jam 14.00.',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+    },
+    {
+      nama: 'Yasinan ibu ibu RT 12',
+      deskripsi: 'Yasinan ibu ibu setiap malam jumat di RT 12.',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+    },
+    {
+      nama: 'Pertemuan + nyapu jalan RT 13',
+      deskripsi: 'Bersih bersih jalan disusul dengan pertemuan jam 14.00.',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+    },
+    {
+      nama: 'Pertemuan Pemuda RT 13',
+      deskripsi: 'Pertemuan pemuda setiap malam sabtu 2 minggu sekali.',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+    },
+    {
+      nama: 'Pertemuan Bapak bapak RT 13',
+      deskripsi: 'Pertemuan bapak bapak yang dilaksanakan setiap malam rabu legi.',
+      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+    },
+    {
+      nama: 'Arisan Bapak bapak RT 13',
+      deskripsi: 'Arisan bapak bapak yang dilaksanakan setiap malam jumat pahing.',
       gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
     },
   ];
