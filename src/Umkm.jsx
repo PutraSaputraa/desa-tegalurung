@@ -53,6 +53,36 @@ function Umkm() {
         email: '-'
       }
     },
+    {
+      nama: 'Pak Gun Car Wash',
+      alamat: 'Tegalurung Bawukan, Kemalang, Klaten, RT 11a, RW 06',
+      noTelp: '82134850931',
+      gambar: '/image/pakgun.jpg',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
+    {
+      nama: 'Kelontong Pak Gun',
+      alamat: 'Tegalurung Bawukan, Kemalang, Klaten, RT 11a, RW 06',
+      noTelp: '82134850931',
+      gambar: '/image/pakgun.jpg',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
+    {
+      nama: 'Laundry Pak Gun',
+      alamat: 'Tegalurung Bawukan, Kemalang, Klaten, RT 11a, RW 06',
+      noTelp: '82134850931',
+      gambar: '/image/pakgun.jpg',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
   ];
 
   const [showModal, setShowModal] = useState(false);
