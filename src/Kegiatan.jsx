@@ -82,7 +82,7 @@ function Kegiatan() {
     {
       nama: 'Pertemuan + nyapu jalan RT 12',
       deskripsi: 'Bersih bersih jalan disusul dengan pertemuan jam 14.00.',
-      gambar: 'rapatibuiburt12.jpg',
+      gambar: '/image/rapatibuiburt12.jpg',
     },
     {
       nama: 'Yasinan ibu ibu RT 12',
@@ -97,7 +97,7 @@ function Kegiatan() {
     {
       nama: 'Pertemuan Pemuda RT 13',
       deskripsi: 'Pertemuan pemuda setiap malam sabtu 2 minggu sekali.',
-      gambar: 'pertemuanpemudart13.jpg',
+      gambar: '/image/pertemuanpemudart13.jpg',
     },
     {
       nama: 'Pertemuan Bapak bapak RT 13',
@@ -112,17 +112,17 @@ function Kegiatan() {
     {
       nama: 'TPA Tegalurung',
       deskripsi: 'Kegiatan TPA untuk anak anak warga tegalurung yang dilaksanakan di masjid darusalam setiap hari senin, jumat, dan sabtu.',
-      gambar: 'tpategalurung.jpg',
+      gambar: '/image/tpategalurung.jpg',
     },
     {
       nama: 'Senam Aerobik Tegalurung',
       deskripsi: 'Senam aerobik yang dilaksanakan setiap hari Jumat sore.',
-      gambar: 'senamaerobik.jpg',
+      gambar: '/image/senamaerobik.jpg',
     },
     {
       nama: 'Senam Lansia Tegalurung',
       deskripsi: 'Senam lansia yang dilaksanakan setiap hari minggu pagi.',
-      gambar: 'senamlansiategalurung.jpg',
+      gambar: '/image/senamlansiategalurung.jpg',
     },
   ];
 
