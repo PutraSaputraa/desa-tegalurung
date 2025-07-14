@@ -42,77 +42,87 @@ function Kegiatan() {
     {
       nama: 'Gotong Royong RT 11a',
       deskripsi: 'Gotong Royong Minggu Pagi Jam 05.00',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      gambar: '',
     },
     {
       nama: 'Arisan ibu ibu RT 11a',
       deskripsi: 'Arisan ibu ibu warga RT 11a yang dilaksanakan setiap hari minggu',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      gambar: '',
     },
     {
       nama: 'Pertemuan Pemuda RT 11a',
       deskripsi: 'Pertemuan pemuda warga RT 11a yang dilaksanakan setiap malam minggu 2 kali seminggu',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      gambar: '',
     },
     {
       nama: 'Pertemuan bapak bapak RT 11a',
       deskripsi: 'Pertemuan bapak bapak warga RT 11a yang dilaksanakan setiap malam senin kliwon',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      gambar: '',
     },
     {
       nama: 'Bersih Bersih Makam',
       deskripsi: 'Bersih Bersih Makam setiap hari minggu legi seluruh warga tegalurung',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      gambar: '',
     },
     {
       nama: 'Yasinan RT 11a',
       deskripsi: 'Acara yasinan setiap selapanan / 35 hari sekali.',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      gambar: '',
     },
     {
       nama: 'Pertemuan RT 11B + Nyapu Jalan',
       deskripsi: 'Bersih bersih jalan disusul dengan pertemuan jam 15.00.',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      gambar: '',
     },
     {
       nama: 'Pertemuan bapak bapak RT 11B',
       deskripsi: 'Pertemuan bapak bapak yang dilaksanakan setiap hari minggu wage.',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      gambar: '',
     },
     {
       nama: 'Pertemuan + nyapu jalan RT 12',
       deskripsi: 'Bersih bersih jalan disusul dengan pertemuan jam 14.00.',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      gambar: 'rapatibuiburt12.jpg',
     },
     {
       nama: 'Yasinan ibu ibu RT 12',
       deskripsi: 'Yasinan ibu ibu setiap malam jumat di RT 12.',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      gambar: '',
     },
     {
       nama: 'Pertemuan + nyapu jalan RT 13',
       deskripsi: 'Bersih bersih jalan disusul dengan pertemuan jam 14.00.',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      gambar: '',
     },
     {
       nama: 'Pertemuan Pemuda RT 13',
       deskripsi: 'Pertemuan pemuda setiap malam sabtu 2 minggu sekali.',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      gambar: 'pertemuanpemudart13.jpg',
     },
     {
       nama: 'Pertemuan Bapak bapak RT 13',
       deskripsi: 'Pertemuan bapak bapak yang dilaksanakan setiap malam rabu legi.',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      gambar: '',
     },
     {
       nama: 'Arisan Bapak bapak RT 13',
       deskripsi: 'Arisan bapak bapak yang dilaksanakan setiap malam jumat pahing.',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      gambar: '',
     },
     {
       nama: 'TPA Tegalurung',
       deskripsi: 'Kegiatan TPA untuk anak anak warga tegalurung yang dilaksanakan di masjid darusalam setiap hari senin, jumat, dan sabtu.',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      gambar: 'tpategalurung.jpg',
+    },
+    {
+      nama: 'Senam Aerobik Tegalurung',
+      deskripsi: 'Senam aerobik yang dilaksanakan setiap hari Jumat sore.',
+      gambar: 'senamaerobik.jpg',
+    },
+    {
+      nama: 'Senam Lansia Tegalurung',
+      deskripsi: 'Senam lansia yang dilaksanakan setiap hari minggu pagi.',
+      gambar: 'senamlansiategalurung.jpg',
     },
   ];
 
