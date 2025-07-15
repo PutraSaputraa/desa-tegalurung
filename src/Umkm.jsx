@@ -103,6 +103,26 @@ function Umkm() {
         email: '-'
       }
     },
+    {
+      nama: 'Supri Batako',
+      alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11a, rw 06',
+      noTelp: '085876233332',
+      gambar: '/image/supribatako.jpg',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
+    {
+      nama: 'Pemotongan Ayam Satiyem',
+      alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11a, rw 06',
+      noTelp: '085876233332',
+      gambar: '/image/pemotonganayamsatiyem.jpg',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
   ];
 
   const [showModal, setShowModal] = useState(false);
