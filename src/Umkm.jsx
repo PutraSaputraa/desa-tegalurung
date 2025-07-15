@@ -83,6 +83,26 @@ function Umkm() {
         email: '-'
       }
     },
+    {
+      nama: 'Duren Merapi Mas Susanto',
+      alamat: 'Tegalurung bawukan, kemalang, klaten, RT 13, RW 07',
+      noTelp: '81215311920',
+      gambar: '/image/durenmerapimassusanto.jpg',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
+    {
+      nama: 'Gula Jawa Ibu Ngadirah',
+      alamat: 'Tegalurung bawukan, kemalang, klaten, RT 13, RW 07',
+      noTelp: '81215311920',
+      gambar: '/image/gulajawabungadirah.jpg',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
   ];
 
   const [showModal, setShowModal] = useState(false);
