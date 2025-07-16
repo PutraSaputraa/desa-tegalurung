@@ -106,7 +106,7 @@ function Umkm() {
     {
       nama: 'Supri Batako',
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11a, rw 06',
-      noTelp: '085876233332',
+      noTelp: '-',
       gambar: '/image/supribatako.jpg',
       sosmed: {
         instagram: '',
@@ -116,8 +116,48 @@ function Umkm() {
     {
       nama: 'Pemotongan Ayam Satiyem',
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11a, rw 06',
-      noTelp: '085876233332',
+      noTelp: '85876233332',
       gambar: '/image/pemotonganayamsatiyem.jpg',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
+    {
+      nama: 'Abadi Motor',
+      alamat: 'Jalan Kepurun - Panggang KM 02, Tegalurung 12/06, Bawukan, Kemalang, Klaten',
+      noTelp: '85879301770',
+      gambar: '/image/abadimotor.jpg',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
+    {
+      nama: 'Kelapa Pak Reka',
+      alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11a, rw 06',
+      noTelp: '85799156132',
+      gambar: '/image/kelapapakreka.jpg',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
+    {
+      nama: 'Es Degan KSM',
+      alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11b, rw 06',
+      noTelp: '85150718236',
+      gambar: '/image/esdeganksm.jpg',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
+    {
+      nama: 'Pakan Ayam Nur Arifin',
+      alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11b, rw 06',
+      noTelp: '85729986908',
+      gambar: '/image/pakanayamnurarifin.jpg',
       sosmed: {
         instagram: '',
         email: '-'
