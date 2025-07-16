@@ -159,9 +159,9 @@ function Home() {
         {/* Statistik Desa */}
         <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
           {[
-            { angka: "312", label: "Total KK" },
-            { angka: "1.105", label: "Total Penduduk" },
-            { angka: "1,5 km²", label: "Luas Wilayah" },
+            { angka: "35", label: "Total KK" },
+            { angka: "150", label: "Total Penduduk" },
+            { angka: "? km²", label: "Luas Wilayah" },
           ].map((stat, index) => {
             const [ref, inView] = useInView({
               triggerOnce: true,
