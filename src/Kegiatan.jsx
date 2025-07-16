@@ -42,7 +42,7 @@ function Kegiatan() {
     {
       nama: 'Gotong Royong RT 11a',
       deskripsi: 'Gotong Royong Minggu Pagi Jam 05.00',
-      gambar: '',
+      gambar: '/image/gotongroyongrt11a.jpg',
     },
     {
       nama: 'Arisan ibu ibu RT 11a',
@@ -62,7 +62,7 @@ function Kegiatan() {
     {
       nama: 'Bersih Bersih Makam',
       deskripsi: 'Bersih Bersih Makam setiap hari minggu legi seluruh warga tegalurung',
-      gambar: '',
+      gambar: '/image/bersihbersihmakam.jpg',
     },
     {
       nama: 'Yasinan RT 11a',
