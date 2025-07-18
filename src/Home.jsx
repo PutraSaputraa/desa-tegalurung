@@ -378,6 +378,10 @@ function Home() {
         </div>
       </section>
 
+      {/* Footer */}
+      <footer className="text-center text-sm text-black-500 py-4 bg-green-200">
+        &copy; 2025 Desa Tegalurung. All rights reserved.
+      </footer>
 
       {showModal && selectedUMKM && (
       <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
