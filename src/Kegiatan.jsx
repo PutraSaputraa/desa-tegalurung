@@ -65,11 +65,6 @@ function Kegiatan() {
       gambar: '/image/bersihbersihmakam.jpg',
     },
     {
-      nama: 'Yasinan RT 11a',
-      deskripsi: 'Acara yasinan setiap selapanan / 35 hari sekali.',
-      gambar: '',
-    },
-    {
       nama: 'Pertemuan RT 11B + Nyapu Jalan',
       deskripsi: 'Bersih bersih jalan disusul dengan pertemuan jam 15.00.',
       gambar: '',
@@ -85,9 +80,9 @@ function Kegiatan() {
       gambar: '/image/rapatibuiburt12.jpg',
     },
     {
-      nama: 'Yasinan ibu ibu RT 12',
-      deskripsi: 'Yasinan ibu ibu setiap malam jumat di RT 12.',
-      gambar: '',
+      nama: 'Yasinan ibu ibu Tegalurung',
+      deskripsi: 'Yasinan ibu ibu setiap malam jumat di tegalurung.',
+      gambar: '/image/yasinan.jpg',
     },
     {
       nama: 'Pertemuan + nyapu jalan RT 13',
