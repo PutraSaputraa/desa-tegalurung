@@ -174,10 +174,10 @@ function Umkm() {
       }
     },
     {
-      nama: 'Gula Jawa Bu Bariyah',
+      nama: 'Gula Jawa Bu Bariyo',
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 12, rw 06',
       noTelp: '82137884719',
-      gambar: '/image/gulajawabubariyah.jpg',
+      gambar: '/image/gulajawabubariyo.jpg',
       sosmed: {
         instagram: '',
         email: '-'
