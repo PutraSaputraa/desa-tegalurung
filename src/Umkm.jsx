@@ -163,6 +163,56 @@ function Umkm() {
         email: '-'
       }
     },
+    {
+      nama: 'Gula Jawa Bu Suyat',
+      alamat: 'Tegalurung bawukan, kemalang, klaten, rt 12, rw 06',
+      noTelp: '82137884719',
+      gambar: '/image/gulajawabusuyat.jpg',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
+    {
+      nama: 'Gula Jawa Bu Bariyah',
+      alamat: 'Tegalurung bawukan, kemalang, klaten, rt 12, rw 06',
+      noTelp: '82137884719',
+      gambar: '/image/gulajawabubariyah.jpg',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
+    {
+      nama: 'Gula Jawa Bu Wartini',
+      alamat: 'Tegalurung bawukan, kemalang, klaten, rt 12, rw 06',
+      noTelp: '82137884719',
+      gambar: '/image/gulajawabubariyah.jpg',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
+    {
+      nama: 'Gula Jawa Bu Temu',//pakjono
+      alamat: 'Tegalurung bawukan, kemalang, klaten, rt 12, rw 06',
+      noTelp: '-',
+      gambar: '/image/-',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
+    {
+      nama: 'Gula Jawa Bu Wartini',//Ngarepe pak jono
+      alamat: 'Tegalurung bawukan, kemalang, klaten, rt 12, rw 06',
+      noTelp: '-',
+      gambar: '/image/-',
+      sosmed: {
+        instagram: '',
+        email: '-'
+      }
+    },
   ];
 
   const [showModal, setShowModal] = useState(false);
