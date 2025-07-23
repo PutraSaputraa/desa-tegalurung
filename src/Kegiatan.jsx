@@ -97,12 +97,12 @@ function Kegiatan() {
     {
       nama: 'Pertemuan Bapak bapak RT 13',
       deskripsi: 'Pertemuan bapak bapak yang dilaksanakan setiap malam rabu legi.',
-      gambar: '',
+      gambar: '/image/rapatrt13.jpg',
     },
     {
       nama: 'Arisan Bapak bapak RT 13',
       deskripsi: 'Arisan bapak bapak yang dilaksanakan setiap malam jumat pahing.',
-      gambar: '',
+      gambar: '/image/rapatrt13.jpg',
     },
     {
       nama: 'TPA Tegalurung',

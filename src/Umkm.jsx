@@ -213,6 +213,26 @@ function Umkm() {
         email: '-'
       }
     },
+    {
+      nama: 'Cap Jae Bu Mursih',
+      alamat: 'Tegalurung bawukan, kemalang, klaten, rt 13, rw 06',
+      noTelp: '-',
+      gambar: '/image/capjaebumursih.jpg',
+      sosmed: {
+        instagram: '-',
+        email: '-'
+      }
+    },
+    {
+      nama: 'Cap Jae Bu Surya',
+      alamat: 'Tegalurung bawukan, kemalang, klaten, rt 13, rw 06',
+      noTelp: '-',
+      gambar: '/image/capjaebursuryo.jpg',
+      sosmed: {
+        instagram: '-',
+        email: '-'
+      }
+    },
   ];
 
   const [showModal, setShowModal] = useState(false);
