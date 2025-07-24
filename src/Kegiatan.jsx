@@ -195,51 +195,45 @@ function Kegiatan() {
       {/* Kontak */}
       <section id="kontak" className="bg-green-600 text-white py-16">
         <div className="max-w-5xl mx-auto px-4">
-          <h3 className="text-2xl font-bold mb-6 text-center">Kontak Desa</h3>
+          <h3 className="text-2xl font-bold mb-6 text-center">Kontak Dusun</h3>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             <div>
-              <h4 className="font-semibold">Kepala Desa</h4>
-              <p>Nama: Bapak Sugeng</p>
-              <p>Telp: 0812-3456-7890</p>
-            </div>
-            <div>
               <h4 className="font-semibold">Kepala Dusun</h4>
-              <p>Nama: Ibu Siti</p>
-              <p>Telp: 0813-9876-5432</p>
+              <p>Nama: Bapak Gimin</p>
+              <p>Telp: -</p>
             </div>
             <div>
               <h4 className="font-semibold">RT 11A</h4>
-              <p>Nama: Pak Rahmat</p>
-              <p>Telp: 0852-1234-5678</p>
+              <p>Nama: -</p>
+              <p>Telp: -</p>
             </div>
             <div>
               <h4 className="font-semibold">RT 11B</h4>
-              <p>Nama: Bu Rina</p>
-              <p>Telp: 0853-8765-4321</p>
+              <p>Nama: -</p>
+              <p>Telp: -</p>
             </div>
             <div>
               <h4 className="font-semibold">RT 12</h4>
-              <p>Nama: Pak Dedi</p>
-              <p>Telp: 0811-2233-4455</p>
+              <p>Nama: -</p>
+              <p>Telp: -</p>
             </div>
             <div>
               <h4 className="font-semibold">RT 13</h4>
-              <p>Nama: Bu Yani</p>
-              <p>Telp: 0822-3344-5566</p>
+              <p>Nama: Pak Sarno</p>
+              <p>Telp: 085926233515</p>
             </div>
           </div>
 
           <div className="mt-10 border-t border-white pt-6">
-            <p>Email: desategalurung@gmail.com</p>
-            <p>Telp Umum: 0857-0205-5011</p>
+            <p>Email: -</p>
           </div>
         </div>
       </section>
 
       {/* Footer */}
       <footer className="text-center text-sm text-black-500 py-4 bg-green-200">
-        &copy; 2025 Desa Tegalurung. All rights reserved.
+        &copy; 2025 Dusun Tegalurung. All rights reserved.
       </footer>
 
       {/* Modal */}
