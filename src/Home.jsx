@@ -41,19 +41,19 @@ function Home() {
 
   const kegiatanList = [
     {
-      nama: 'Posyandu Puskesmas',
-      deskripsi: 'Ya posyandu ajah mau gimana lagi lek, yakan yak.',
-      gambar: 'https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg',
+      nama: 'Bersih Bersih Makam',
+      deskripsi: 'Bersih Bersih Makam setiap hari minggu legi seluruh warga tegalurung',
+      gambar: '/image/bersihbersihmakam.jpg',
     },
     {
-      nama: 'Kerja Bakti Bersih Desa',
-      deskripsi: 'Minggu pagi warga membersihkan jalan dan saluran air.',
-      gambar: '',
+      nama: 'Yasinan ibu ibu Tegalurung',
+      deskripsi: 'Yasinan ibu ibu setiap malam jumat di tegalurung.',
+      gambar: '/image/yasinan.jpg',
     },
     {
-      nama: 'Pelatihan UMKM',
-      deskripsi: 'Warga dilatih untuk membuat produk makanan ringan kemasan.',
-      gambar: '',
+      nama: 'TPA Tegalurung',
+      deskripsi: 'Kegiatan TPA untuk anak anak warga tegalurung yang dilaksanakan di masjid darusalam setiap hari senin, jumat, dan sabtu.',
+      gambar: '/image/tpategalurung.jpg',
     },
   ];
 
