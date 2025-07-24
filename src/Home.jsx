@@ -262,8 +262,8 @@ function Home() {
 
       {/* Peta */}
       <section id="peta" className="max-w-5xl mx-auto px-4 py-16">
-        <h3 className="text-2xl font-bold mb-4">Peta Desa</h3>
-        <img src="https://cdn.antaranews.com/cache/1200x800/2024/11/17/1000055476.jpg" alt="" className='h-full w-full' />
+        <h3 className="text-2xl font-bold mb-4">Peta Desa Bawukan</h3>
+        <img src="/image/PETA DESA BAWUKAN.jpg" alt="" className='h-full w-full'/>
       </section>
 
       {/* Kegiatan */}
