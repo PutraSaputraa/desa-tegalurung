@@ -205,18 +205,18 @@ function Kegiatan() {
             </div>
             <div>
               <h4 className="font-semibold">RT 11A</h4>
-              <p>Nama: -</p>
-              <p>Telp: -</p>
+              <p>Nama: Pak Tuwarji</p>
+              <p>Telp: 085842293243</p>
             </div>
             <div>
               <h4 className="font-semibold">RT 11B</h4>
-              <p>Nama: -</p>
-              <p>Telp: -</p>
+              <p>Nama: Pak Gandung</p>
+              <p>Telp: 085848111429</p>
             </div>
             <div>
               <h4 className="font-semibold">RT 12</h4>
-              <p>Nama: -</p>
-              <p>Telp: -</p>
+              <p>Nama: Pak Tuwarji</p>
+              <p>Telp: 085124601966</p>
             </div>
             <div>
               <h4 className="font-semibold">RT 13</h4>
