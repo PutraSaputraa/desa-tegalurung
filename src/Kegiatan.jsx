@@ -119,6 +119,16 @@ function Kegiatan() {
       deskripsi: 'Senam lansia yang dilaksanakan setiap hari minggu pagi.',
       gambar: '/image/senamlansiategalurung.jpg',
     },
+    {
+      nama: 'Pertemuan Pemuda Pemudi RT 11b',
+      deskripsi: 'Pertemuan pemuda pemudi RT 11b setiap malam minggu satu bulan 2 kali.',
+      gambar: '/image/-',
+    },
+    {
+      nama: 'Pertemuan Pemuda RT 12',
+      deskripsi: 'Pertemuan Pemuda Setiap bulan di Minggu Pertama.',
+      gambar: '/image/-',
+    },
   ];
 
 
