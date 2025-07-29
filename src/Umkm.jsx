@@ -15,7 +15,7 @@ function Umkm() {
     },
     {
       nama: 'Warung Soto Mbok Atun',
-      alamat: 'Tegalurung Tengah, Bawukan, Kemalang, Klaten',
+      alamat: 'Tegalurung Tengah, Bawukan, Kemalang, Klaten RT 11b',
       noTelp: '85848111426',
       gambar: '/image/warungsotombakatun.jpg',
       sosmed: {
@@ -25,7 +25,7 @@ function Umkm() {
     },
     {
       nama: 'Cap jae bu wariah',
-      alamat: 'Tegalurung Tengah, Bawukan, Kemalang, Klaten',
+      alamat: 'Tegalurung Tengah, Bawukan, Kemalang, Klaten RT 11b',
       noTelp: '8578398625',
       gambar: '/image/capjaebuwariah.jpg',
       sosmed: {
@@ -184,20 +184,10 @@ function Umkm() {
       }
     },
     {
-      nama: 'Gula Jawa Bu Wartini',
-      alamat: 'Tegalurung bawukan, kemalang, klaten, rt 12, rw 06',
-      noTelp: '82137884719',
-      gambar: '/image/gulajawabubariyah.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
-    },
-    {
       nama: 'Gula Jawa Bu Temu',//pakjono
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 12, rw 06',
       noTelp: '-',
-      gambar: '/image/-',
+      gambar: '/image/GulaJawaBuTemu.jpg',
       sosmed: {
         instagram: '',
         email: '-'
@@ -207,7 +197,7 @@ function Umkm() {
       nama: 'Gula Jawa Bu Wartini',//Ngarepe pak jono
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 12, rw 06',
       noTelp: '-',
-      gambar: '/image/-',
+      gambar: '/image/GulaJawaBuWartini.jpg',
       sosmed: {
         instagram: '',
         email: '-'
