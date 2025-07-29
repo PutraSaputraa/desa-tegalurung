@@ -309,7 +309,6 @@ function Umkm() {
                 <strong>Lokasi :</strong> {selectedUMKM.lokasi}
               </p>
               <p className="text-sm text-gray-700 mb-1">
-                <strong>Lokasi :</strong> {selectedUMKM.lokasi}
                 <a
                   href={`${selectedUMKM.lokasi}`}
                 >
