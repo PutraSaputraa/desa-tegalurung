@@ -8,21 +8,21 @@ function Umkm() {
       alamat: 'JL. Pasar Butuh KM 01 Tegalurung RT 11A/06 Bawukan Kemalang Klaten',
       noTelp: '-',
       gambar: '/image/nadiracell.jpg',
-      lokasi: '',
+      lokasi: 'https://maps.app.goo.gl/UBznNrNM9HNtJqHR8',
     },
     {
       nama: 'Warung Soto Mbok Atun',
       alamat: 'Tegalurung Tengah, Bawukan, Kemalang, Klaten RT 11b',
       noTelp: '85848111426',
       gambar: '/image/warungsotombakatun.jpg',
-      lokasi: '',
+      lokasi: 'https://maps.app.goo.gl/svSDi9gvqsUnbrLo6',
     },
     {
       nama: 'Cap jae bu wariah',
       alamat: 'Tegalurung Tengah, Bawukan, Kemalang, Klaten RT 11b',
       noTelp: '8578398625',
       gambar: '/image/capjaebuwariah.jpg',
-      lokasi: '',
+      lokasi: 'https://maps.app.goo.gl/ZGpXVHixrHmgt1mY8',
     },
     {
       nama: 'Dirin Motor',
@@ -36,7 +36,7 @@ function Umkm() {
       alamat: 'Tegalurung bawukan, kemalang, klaten, RT 11a, RW 06',
       noTelp: '85878226177',
       gambar: '/image/sembakobusuprih.jpg',
-      lokasi: '',
+      lokasi: 'https://maps.app.goo.gl/xUc2T1erd1hgyBbB7',
     },
     {
       nama: 'Pak Gun Car Wash',
@@ -50,28 +50,28 @@ function Umkm() {
       alamat: 'Tegalurung Bawukan, Kemalang, Klaten, RT 11a, RW 06',
       noTelp: '82134850931',
       gambar: '/image/pakgunkelontong.jpg',
-      lokasi: '',
+      lokasi: 'https://maps.app.goo.gl/gc1JF8WTvwZXrm2J8',
     },
     {
       nama: 'Laundry Pak Gun',
       alamat: 'Tegalurung Bawukan, Kemalang, Klaten, RT 11a, RW 06',
       noTelp: '82134850931',
       gambar: '/image/pakgunlaundry.jpg',
-      lokasi: '',
+      lokasi: 'https://maps.app.goo.gl/oNCwpDuWQJ79LAvu8',
     },
     {
       nama: 'Duren Merapi Mas Susanto',
       alamat: 'Tegalurung bawukan, kemalang, klaten, RT 13, RW 07',
       noTelp: '81215311920',
       gambar: '/image/durenmerapimassusanto.jpg',
-      lokasi: '',
+      lokasi: 'https://maps.app.goo.gl/rPetaStVG2g2uziCA',
     },
     {
       nama: 'Gula Jawa Ibu Ngadirah',
       alamat: 'Tegalurung bawukan, kemalang, klaten, RT 13, RW 07',
       noTelp: '81215311920',
       gambar: '/image/gulajawabungadirah.jpg',
-      lokasi: '',
+      lokasi: 'https://maps.app.goo.gl/rPetaStVG2g2uziCA',
     },
     {
       nama: 'Supri Batako',
@@ -85,21 +85,21 @@ function Umkm() {
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11a, rw 06',
       noTelp: '85876233332',
       gambar: '/image/pemotonganayamsatiyem.jpg',
-      lokasi: '',
+      lokasi: 'https://maps.app.goo.gl/crm9rJkW2Kn6fAqP6',
     },
     {
       nama: 'Abadi Motor',
       alamat: 'Jalan Kepurun - Panggang KM 02, Tegalurung 12/06, Bawukan, Kemalang, Klaten',
       noTelp: '85879301770',
       gambar: '/image/abadimotor.jpg',
-      lokasi: '',
+      lokasi: 'https://maps.app.goo.gl/dJ4vFmmUVf6VZwB98',
     },
     {
       nama: 'Kelapa Pak Reka',
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11a, rw 06',
       noTelp: '85799156132',
       gambar: '/image/kelapapakreka.jpg',
-      lokasi: '',
+      lokasi: 'https://maps.app.goo.gl/5Um5GzXShj3BSm3e9',
     },
     {
       nama: 'Es Degan KSM',
@@ -113,7 +113,7 @@ function Umkm() {
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11b, rw 06',
       noTelp: '85729986908',
       gambar: '/image/pakanayamnurarifin.jpg',
-      lokasi: '',
+      lokasi: 'https://maps.app.goo.gl/ata1Zr6hFS3AN4mG6',
     },
     {
       nama: 'Gula Jawa Bu Suyat',
@@ -307,6 +307,14 @@ function Umkm() {
               </p>
               <p className="text-sm text-gray-700 mb-1">
                 <strong>Lokasi :</strong> {selectedUMKM.lokasi}
+              </p>
+              <p className="text-sm text-gray-700 mb-1">
+                <strong>Lokasi :</strong> {selectedUMKM.lokasi}
+                <a
+                  href={`${selectedUMKM.lokasi}`}
+                >
+                  Buka maps
+                </a>
               </p>
               <div className='flex justify-between'>
                 <button
