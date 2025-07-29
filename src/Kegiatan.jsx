@@ -129,6 +129,11 @@ function Kegiatan() {
       deskripsi: 'Pertemuan Pemuda Setiap bulan di Minggu Pertama.',
       gambar: '/image/-',
     },
+    {
+      nama: 'Pertemuan bapak bapak RT 12',
+      deskripsi: 'Pertemuan bapak bapak rt 12 Setiap bulan di sabtu minggu terakhir.',
+      gambar: '/image/pertemuanrt12.jpg',
+    },
   ];
 
 

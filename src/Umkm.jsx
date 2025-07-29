@@ -8,220 +8,154 @@ function Umkm() {
       alamat: 'JL. Pasar Butuh KM 01 Tegalurung RT 11A/06 Bawukan Kemalang Klaten',
       noTelp: '-',
       gambar: '/image/nadiracell.jpg',
-      sosmed: {
-        instagram: '-',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Warung Soto Mbok Atun',
       alamat: 'Tegalurung Tengah, Bawukan, Kemalang, Klaten RT 11b',
       noTelp: '85848111426',
       gambar: '/image/warungsotombakatun.jpg',
-      sosmed: {
-        instagram: '-',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Cap jae bu wariah',
       alamat: 'Tegalurung Tengah, Bawukan, Kemalang, Klaten RT 11b',
       noTelp: '8578398625',
       gambar: '/image/capjaebuwariah.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Dirin Motor',
       alamat: 'Tegalurung bawukan, kemalang, klaten, RT 11a, RW 06',
       noTelp: '85878226177',
       gambar: '/image/dirinmotor.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: 'https://maps.app.goo.gl/p57HcWUEBYN3NuRg7',
     },
     {
       nama: 'Sembako Bu Suprih',
       alamat: 'Tegalurung bawukan, kemalang, klaten, RT 11a, RW 06',
       noTelp: '85878226177',
       gambar: '/image/sembakobusuprih.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Pak Gun Car Wash',
       alamat: 'Tegalurung Bawukan, Kemalang, Klaten, RT 11a, RW 06',
       noTelp: '82134850931',
       gambar: '/image/pakguncarwash.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Kelontong Pak Gun',
       alamat: 'Tegalurung Bawukan, Kemalang, Klaten, RT 11a, RW 06',
       noTelp: '82134850931',
       gambar: '/image/pakgunkelontong.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Laundry Pak Gun',
       alamat: 'Tegalurung Bawukan, Kemalang, Klaten, RT 11a, RW 06',
       noTelp: '82134850931',
       gambar: '/image/pakgunlaundry.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Duren Merapi Mas Susanto',
       alamat: 'Tegalurung bawukan, kemalang, klaten, RT 13, RW 07',
       noTelp: '81215311920',
       gambar: '/image/durenmerapimassusanto.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Gula Jawa Ibu Ngadirah',
       alamat: 'Tegalurung bawukan, kemalang, klaten, RT 13, RW 07',
       noTelp: '81215311920',
       gambar: '/image/gulajawabungadirah.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Supri Batako',
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11a, rw 06',
       noTelp: '-',
       gambar: '/image/supribatako.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Pemotongan Ayam Satiyem',
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11a, rw 06',
       noTelp: '85876233332',
       gambar: '/image/pemotonganayamsatiyem.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Abadi Motor',
       alamat: 'Jalan Kepurun - Panggang KM 02, Tegalurung 12/06, Bawukan, Kemalang, Klaten',
       noTelp: '85879301770',
       gambar: '/image/abadimotor.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Kelapa Pak Reka',
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11a, rw 06',
       noTelp: '85799156132',
       gambar: '/image/kelapapakreka.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Es Degan KSM',
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11b, rw 06',
       noTelp: '85150718236',
       gambar: '/image/esdeganksm.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Pakan Ayam Nur Arifin',
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 11b, rw 06',
       noTelp: '85729986908',
       gambar: '/image/pakanayamnurarifin.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Gula Jawa Bu Suyat',
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 12, rw 06',
       noTelp: '82137884719',
       gambar: '/image/gulajawabusuyat.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Gula Jawa Bu Bariyo',
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 12, rw 06',
       noTelp: '82137884719',
       gambar: '/image/gulajawabubariyo.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Gula Jawa Bu Temu',//pakjono
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 12, rw 06',
       noTelp: '-',
       gambar: '/image/GulaJawaBuTemu.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Gula Jawa Bu Wartini',//Ngarepe pak jono
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 12, rw 06',
       noTelp: '-',
       gambar: '/image/GulaJawaBuWartini.jpg',
-      sosmed: {
-        instagram: '',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Cap Jae Bu Mursih',
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 13, rw 06',
       noTelp: '-',
       gambar: '/image/capjaebumursih.jpg',
-      sosmed: {
-        instagram: '-',
-        email: '-'
-      }
+      lokasi: '',
     },
     {
       nama: 'Cap Jae Bu Surya',
       alamat: 'Tegalurung bawukan, kemalang, klaten, rt 13, rw 06',
       noTelp: '-',
       gambar: '/image/capjaebursuryo.jpg',
-      sosmed: {
-        instagram: '-',
-        email: '-'
-      }
+      lokasi: '',
     },
   ];
 
@@ -372,10 +306,7 @@ function Umkm() {
                 <strong>Alamat:</strong> {selectedUMKM.alamat}
               </p>
               <p className="text-sm text-gray-700 mb-1">
-                <strong>Instagram:</strong> {selectedUMKM.sosmed.instagram}
-              </p>
-              <p className="text-sm text-gray-700 mb-3">
-                <strong>Gmail:</strong> {selectedUMKM.sosmed.email}
+                <strong>Lokasi :</strong> {selectedUMKM.lokasi}
               </p>
               <div className='flex justify-between'>
                 <button
