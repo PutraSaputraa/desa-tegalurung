@@ -306,12 +306,12 @@ function Umkm() {
                 <strong>Alamat:</strong> {selectedUMKM.alamat}
               </p>
               <p className="text-sm text-gray-700 mb-1">
-                <strong>Lokasi :</strong> {selectedUMKM.lokasi}
-              </p>
-              <p className="text-sm text-gray-700 mb-1">
                 <a
                   href={`${selectedUMKM.lokasi}`}
-                >
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-4 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-700 transition-colors duration-200"
+                  >
                   Buka maps
                 </a>
               </p>
