@@ -161,7 +161,7 @@ function Home() {
           {[
             { angka: "162", label: "Total KK" },
             { angka: "466", label: "Total Penduduk" },
-            { angka: "? km²", label: "Luas Wilayah" },
+            { angka: "1.8 Ha²", label: "Luas Wilayah" },
           ].map((stat, index) => {
             const [ref, inView] = useInView({
               triggerOnce: true,
