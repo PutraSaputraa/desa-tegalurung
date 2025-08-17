@@ -47,17 +47,17 @@ function Kegiatan() {
     {
       nama: 'Arisan ibu ibu RT 11a',
       deskripsi: 'Arisan ibu ibu warga RT 11a yang dilaksanakan setiap hari minggu',
-      gambar: '',
+      gambar: 'Arisan Ibu Ibu RT 11a',
     },
     {
       nama: 'Pertemuan Pemuda RT 11a',
       deskripsi: 'Pertemuan pemuda warga RT 11a yang dilaksanakan setiap malam minggu 2 kali seminggu',
-      gambar: '',
+      gambar: 'Pertemuan Pemuda RT 11a',
     },
     {
       nama: 'Pertemuan bapak bapak RT 11a',
       deskripsi: 'Pertemuan bapak bapak warga RT 11a yang dilaksanakan setiap malam senin kliwon',
-      gambar: '',
+      gambar: 'Pertemuan bapak bapak RT 11a',
     },
     {
       nama: 'Bersih Bersih Makam',
@@ -67,12 +67,12 @@ function Kegiatan() {
     {
       nama: 'Pertemuan RT 11B + Nyapu Jalan',
       deskripsi: 'Bersih bersih jalan disusul dengan pertemuan jam 15.00.',
-      gambar: '',
+      gambar: 'Pertemuan RT 11B + Nyapu Jalan',
     },
     {
       nama: 'Pertemuan bapak bapak RT 11B',
       deskripsi: 'Pertemuan bapak bapak yang dilaksanakan setiap hari minggu wage.',
-      gambar: '',
+      gambar: 'Pertemuan bapak bapak RT 11B',
     },
     {
       nama: 'Pertemuan + nyapu jalan RT 12',
@@ -87,7 +87,7 @@ function Kegiatan() {
     {
       nama: 'Pertemuan + nyapu jalan RT 13',
       deskripsi: 'Bersih bersih jalan disusul dengan pertemuan jam 14.00.',
-      gambar: '',
+      gambar: 'Pertemuan + nyapu jalan RT 13',
     },
     {
       nama: 'Pertemuan Pemuda RT 13',
@@ -122,12 +122,12 @@ function Kegiatan() {
     {
       nama: 'Pertemuan Pemuda Pemudi RT 11b',
       deskripsi: 'Pertemuan pemuda pemudi RT 11b setiap malam minggu satu bulan 2 kali.',
-      gambar: '/image/-',
+      gambar: 'Pertemuan Pemuda Pemudi RT 11b',
     },
     {
       nama: 'Pertemuan Pemuda RT 12',
       deskripsi: 'Pertemuan Pemuda Setiap bulan di Minggu Pertama.',
-      gambar: '/image/-',
+      gambar: 'Pertemuan Pemuda RT 12',
     },
     {
       nama: 'Pertemuan bapak bapak RT 12',
