@@ -47,17 +47,17 @@ function Kegiatan() {
     {
       nama: 'Arisan ibu ibu RT 11a',
       deskripsi: 'Arisan ibu ibu warga RT 11a yang dilaksanakan setiap hari minggu',
-      gambar: '',
+      gambar: 'none',
     },
     {
       nama: 'Pertemuan Pemuda RT 11a',
       deskripsi: 'Pertemuan pemuda warga RT 11a yang dilaksanakan setiap malam minggu 2 kali seminggu',
-      gambar: '',
+      gambar: 'none',
     },
     {
       nama: 'Pertemuan bapak bapak RT 11a',
       deskripsi: 'Pertemuan bapak bapak warga RT 11a yang dilaksanakan setiap malam senin kliwon',
-      gambar: '',
+      gambar: 'none',
     },
     {
       nama: 'Bersih Bersih Makam',
@@ -67,12 +67,12 @@ function Kegiatan() {
     {
       nama: 'Pertemuan RT 11B + Nyapu Jalan',
       deskripsi: 'Bersih bersih jalan disusul dengan pertemuan jam 15.00.',
-      gambar: '',
+      gambar: 'none',
     },
     {
       nama: 'Pertemuan bapak bapak RT 11B',
       deskripsi: 'Pertemuan bapak bapak yang dilaksanakan setiap hari minggu wage.',
-      gambar: '',
+      gambar: 'none',
     },
     {
       nama: 'Pertemuan + nyapu jalan RT 12',
@@ -87,7 +87,7 @@ function Kegiatan() {
     {
       nama: 'Pertemuan + nyapu jalan RT 13',
       deskripsi: 'Bersih bersih jalan disusul dengan pertemuan jam 14.00.',
-      gambar: '',
+      gambar: 'none',
     },
     {
       nama: 'Pertemuan Pemuda RT 13',
@@ -122,12 +122,12 @@ function Kegiatan() {
     {
       nama: 'Pertemuan Pemuda Pemudi RT 11b',
       deskripsi: 'Pertemuan pemuda pemudi RT 11b setiap malam minggu satu bulan 2 kali.',
-      gambar: '',
+      gambar: 'none',
     },
     {
       nama: 'Pertemuan Pemuda RT 12',
       deskripsi: 'Pertemuan Pemuda Setiap bulan di Minggu Pertama.',
-      gambar: '',
+      gambar: 'none',
     },
     {
       nama: 'Pertemuan bapak bapak RT 12',

@@ -1,14 +1,11 @@
-import { useState } from "react";
-import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 function KegiatanCard({ kegiatan, index, onClick }) {
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.15,
   });
-
-  const [imgError, setImgError] = useState(false);
 
   return (
     <motion.div
@@ -19,26 +16,21 @@ function KegiatanCard({ kegiatan, index, onClick }) {
       className="bg-white p-6 shadow rounded-md"
     >
       <div className="h-[200px] overflow-hidden rounded mb-3 flex items-center justify-center bg-gray-200">
-        {kegiatan.gambar && !imgError ? (
+        {kegiatan.gambar === 'none' ? (
+          <span className="text-gray-600 font-semibold text-center px-2">
+            {kegiatan.nama}
+          </span>
+        ) : (
           <img
             src={kegiatan.gambar}
             alt={kegiatan.nama}
             className="w-full h-full object-cover"
-            onError={() => setImgError(true)} // kalau gagal load → fallback
           />
-        ) : (
-          <span className="text-gray-600 font-semibold text-center px-2">
-            {kegiatan.nama}
-          </span>
         )}
       </div>
 
-      <div className="font-semibold text-xl mb-2 text-green-600">
-        {kegiatan.nama}
-      </div>
-      <p className="text-sm text-justify text-gray-700 mb-3">
-        {kegiatan.deskripsi}
-      </p>
+      <div className="font-semibold text-xl mb-2 text-green-600">{kegiatan.nama}</div>
+      <p className="text-sm text-justify text-gray-700 mb-3">{kegiatan.deskripsi}</p>
       <button
         onClick={onClick}
         className="bg-green-600 text-white px-3 py-1 rounded hover:bg-green-700"
