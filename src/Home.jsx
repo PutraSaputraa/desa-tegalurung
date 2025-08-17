@@ -342,7 +342,7 @@ function Home() {
             <div>
               <h4 className="font-semibold">Kepala Dusun</h4>
               <p>Nama: Bapak Gimin</p>
-              <p>Telp: -</p>
+              <p>Telp: 082198679203</p>
             </div>
             <div>
               <h4 className="font-semibold">RT 11A</h4>
@@ -367,7 +367,7 @@ function Home() {
           </div>
 
           <div className="mt-10 border-t border-white pt-6">
-            <p>Email: -</p>
+            <p>Email: kkntegalurung297@gmail.com</p>
           </div>
         </div>
       </section>
