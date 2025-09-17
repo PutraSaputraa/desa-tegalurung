@@ -110,9 +110,9 @@ function Home() {
         <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
           <h1 className="text-xl font-bold">Tegalurung</h1>
           <ul className="flex space-x-6 text-sm font-medium">
-            <li><a href="#profil" className="hover:text-blue-600">Beranda</a></li>
-            <li><a href="/Umkm" className="hover:text-blue-600">UMKM</a></li>
-            <li><a href="/Kegiatan" className="hover:text-blue-600">Kegiatan</a></li>
+            <li><a href="#profil" className="hover:text-blue-600" onClick={() => speakText("Beranda")}>Beranda</a></li>
+            <li><a href="/Umkm" className="hover:text-blue-600" onClick={() => speakText("UMKM")}>UMKM</a></li>
+            <li><a href="/Kegiatan" className="hover:text-blue-600" onClick={() => speakText("Kegiatan")}>Kegiatan</a></li>
           </ul>
         </div>
       </nav>
